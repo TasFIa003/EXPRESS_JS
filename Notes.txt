@@ -5,4 +5,10 @@ response:
   response cookies
 
 
-[response status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+For simple string response:
+send() and end() works similarly but one difference between them is
+  res.send()- define body of response
+  res.end()- define last status/ending point of the response
+
+
+res.status(code).end() 
